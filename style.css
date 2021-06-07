@@ -2,7 +2,7 @@ body {
   font-family: Arial, Geneva, Helvetica, sans-serif; 
   font-family: Arial, Geneva, Helvetica, sans-serif; ;
   text-align: center;
-  color: black;
+  
 
 }
 h3{
@@ -12,8 +12,8 @@ h1{
   text-align: center;
   font-size: 3rem;
   font-style: italic;
-  color:blue;
-  background-color:black;
+  color:lime;
+  background-color:green;
 }
 h2{
   text-align: center;
