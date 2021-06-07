@@ -8,7 +8,7 @@ var products = [
         fruit:true,
         condiments:false,
         price: 0.99,
-        img: "items/banana.jpg",
+        img: "./Items/Banana.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -22,7 +22,7 @@ var products = [
         fruit:false,
         condiments:true,
         price: 1.99,
-        img: "items/salt.jpg",
+        img: "./Items/salt.jpg",
         dairy:false,
         cookingProducts:true,
         beverages:false
