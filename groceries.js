@@ -92,7 +92,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 3.79,
-        img: "./items/orangejuice.jpeg",
+        img: "./items/orangejuice.JPEG",
         dairy:false,
         cookingProducts:false,
         beverages:true
