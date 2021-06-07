@@ -106,7 +106,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 3.99,
-        img: "./items/eggplant.jpg",
+        img: "./Items/eggplant.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -149,7 +149,7 @@ var products = [
         organic: false,
         condiments:true,
         price: 1.99,
-        img: "./items/mustard.jpg",
+        img: "Items/mustard.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -163,7 +163,7 @@ var products = [
         organic: false,
         condiments:false,
         price: 4.99,
-        img: "./items/milk.jpg",
+        img: "./Items/milk.jpg",
         dairy:true,
         cookingProducts:false,
         beverages:true
@@ -177,7 +177,7 @@ var products = [
         organic: false,
         condiments:false,
         price: 6.99,
-        img: "./items/cheesestrings.png",
+        img: "./items/cheesestrings.PNG",
         dairy:true,
         cookingProducts:false,
         beverages:false
