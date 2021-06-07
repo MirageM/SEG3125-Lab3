@@ -75,6 +75,7 @@ var products = [
 
         condiments:false,
         price: 2.99,
+        //img from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ewg.org%2Ffoodscores%2Fproducts%2F073410955529-ArnoldOrganic100WholeGrainBread%2F&psig=AOvVaw0eIljAOdgxVP0sH-w90ysd&ust=1623162693130000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDp_bHehfECFQAAAAAdAAAAABAD
         img: "./Items/breado.jpg",
         dairy:false,
         cookingProducts:false,
@@ -82,7 +83,7 @@ var products = [
     },
     {  
         name: "Organic Milk",
-        vegetarian: false,
+        vegetarian: true,
         glutenFree: false,
         organic: true,
         vegetable: false,
@@ -230,6 +231,7 @@ var products = [
 
         condiments:false,
         price: 11.99,
+        //img from: https://www.citarella.com/media/catalog/product/cache/6bd6bc90948058f1c179c773d53c57be/0/2/024028800000_01_1_1.jpg
         img: "./Items/salmon.jpg",
         dairy:false,
         cookingProducts:false,
@@ -240,8 +242,8 @@ var products = [
         vegetarian: true,
         glutenFree: true,
         organic: true,
-        vegetable:false,
-        fruit:false,
+        vegetable:true,
+        fruit:false,//true but it's juice
          //new
         nutfree:true,
         lactosefree:true,
@@ -333,7 +335,7 @@ var products = [
     },
     {
         name: "Milk",
-        vegetarian: false,
+        vegetarian: true,
         glutenFree: true,
         vegetable:false,
         fruit:false,
@@ -412,7 +414,7 @@ var products = [
     },
     {
         name: "Cheese Strings",
-        vegetarian: false,
+        vegetarian: true,
         glutenFree: true,
         vegetable:false,
         fruit:false,
