@@ -36,7 +36,7 @@ var products = [
         fruit:true,
         condiments:false,
         price: 2.99,
-        img: "./items/apple.png",
+        img: "items/apple.png",
         dairy:false,
         cookingProducts:false,
         beverages:false
