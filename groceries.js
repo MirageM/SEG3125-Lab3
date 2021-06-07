@@ -8,7 +8,7 @@ var products = [
         fruit:true,
         condiments:false,
         price: 0.99,
-        img: "./items/banana.jpg",
+        img: "./Items/Banana.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -22,7 +22,7 @@ var products = [
         fruit:false,
         condiments:true,
         price: 1.99,
-        img: "./items/salt.jpg",
+        img: "./Items/salt.jpg",
         dairy:false,
         cookingProducts:true,
         beverages:false
@@ -36,7 +36,7 @@ var products = [
         fruit:true,
         condiments:false,
         price: 2.99,
-        img: "./items/apple.png",
+        img: "items/apple.png",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -92,7 +92,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 3.79,
-        img: "./items/orangejuice.jpeg",
+        img: "./items/orangejuice.JPEG",
         dairy:false,
         cookingProducts:false,
         beverages:true
