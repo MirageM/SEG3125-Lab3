@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirage's Grocery Shop</title>
+    <link href="style.css" rel="stylesheet">
+<style>
+
+  p.solid {border-style: solid;}
+
+  .button {
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+    
+</head>
+<body style="background-color:#696969;">
+    
+    <h1>Mirage Groceries</h1>
+    <br>
+    <h2>Welcome to Mirage's Grocery Shop, Please place your grocery order below </h2>
+    <br> <br> 
+
+    <p class="solid">
+    <h2>Step 1: Choose your Grocery Preferences</h2>
+    <h3>Your selected grocery preference</h3>
+    <div class="preference">
+        <input type="checkbox" name="preference" value="vegetarian"> Vegetarian
+        <input type="checkbox" name="preference" value="organic"> Organic
+        <input type="checkbox" name="preference" value="glutenFree"> Gluten Free 
+    </div>
+
+  </p>
+    <br>
+    <br>
+
+  
+    <h3>Select a category here</h3>
+    <div class="preference">
+      <input type="radio" name="categorization" value="dairy"> Dairy <br>
+        <input type="radio" name="categorization" value="fruit"> Fruits <br>
+        <input type="radio" name="categorization" value="vegetable"> Vegetables <br>
+        <input type="radio" name="categorization" value="beverages"> Beverages <br>
+        <input type="radio" name="categorization" value="condiments"> Condiments <br>
+        <input type="radio" name="categorization" value="cookingProducts"> Cooking Products <br>
+        <input type="radio" name="categorization" value="noAdditional" checked="checked"> None <br>
+    </div>
+    <br>
+    <br>
+
+    <button id="search" class="button button3">Search Groceries</button>
+    <br>
+    <br>
+    <p class="solid">
+    <h2>Step 2: Select your items from the search results</h2>
+    <h3>Please see the list of items available below based on your restrictions (if any)</h3>
+
+    <div id="productChoices" class="grid"></div>
+  </p>
+    <br> <br>
+
+    <button id="addCart" class="button button3">Add Choices to my Cart</button>
+
+
+    <p class="solid">
+    <h2>Step 3: Shopping Cart and Total</h2>
+    <h3> Can view the content of the cart </h3>
+    <p>Selected Items:</p>
+    <div id="cart" class="grid"></div>
+
+    <script src="groceries.js"></script>
+
+    <p class="solid"></p>
+  </p>
+    <br><br><br><br>
+    <footer>
+        <p>Website Designed By <a href="mailto:imiragesz@gmail.com"> Mirage Mohammad</a>
+        </p>
+    </footer>
+</body>
+</html>
