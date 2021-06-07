@@ -8,7 +8,7 @@ var products = [
         fruit:true,
         condiments:false,
         price: 0.99,
-        img: "./Items/Banana.jpg",
+        img: "./Items/banana.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -36,7 +36,7 @@ var products = [
         fruit:true,
         condiments:false,
         price: 2.99,
-        img: "items/apple.png",
+        img: "Items/apple.png",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -50,7 +50,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 3.99,
-        img: "./items/pomegrante.jpg",
+        img: "./Items/pomegrante.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -64,7 +64,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 4.99,
-        img: "./items/bread.jpg",
+        img: "./Items/bread.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -78,7 +78,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 7.99,
-        img: "./items/chicken.jpg",
+        img: "./Items/chicken.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -92,7 +92,7 @@ var products = [
         fruit:false,
         condiments:false,
         price: 3.79,
-        img: "./items/orangejuice.JPEG",
+        img: "./Items/orangejuice.jpeg",
         dairy:false,
         cookingProducts:false,
         beverages:true
@@ -120,7 +120,7 @@ var products = [
         organic: false,
         condiments:false,
         price: 5.99,
-        img: "./items/potatoes.jpg",
+        img: "./Items/potatoes.jpg",
         dairy:false,
         cookingProducts:false,
         beverages:false
@@ -134,7 +134,7 @@ var products = [
         fruit:false,
         organic: false,
         price: 3.79,
-        img: "./items/ketchup.jpg",
+        img: "./Items/ketchup.jpg",
         dairy:false,
         cookingProducts:false,
         condiments:true,
@@ -177,7 +177,7 @@ var products = [
         organic: false,
         condiments:false,
         price: 6.99,
-        img: "./items/cheesestrings.PNG",
+        img: "./Items/cheesestrings.png",
         dairy:true,
         cookingProducts:false,
         beverages:false
