@@ -1,11 +1,17 @@
 var products = [
-    {
+    {  
         name: "Banana",
         vegetarian: true,
         glutenFree: true,
         organic: false,
         vegetable:false,
         fruit:true,
+        //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
+
         condiments:false,
         price: 0.99,
         img: "./Items/banana.jpg",
@@ -13,6 +19,107 @@ var products = [
         cookingProducts:false,
         beverages:false
     },
+
+    {  
+        name: "Blueberry",
+        vegetarian: true,
+        glutenFree: true,
+        organic: false,
+        vegetable:true,
+        fruit:true,
+        //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 1.99,
+        img: "./Items/blueberry.jpg",
+        dairy:false,
+        cookingProducts:false,
+        beverages:false
+    },
+    {  
+        name: "Organic Blueberry",
+        vegetarian: true,
+        glutenFree: true,
+        organic: true,
+        vegetable:true,
+        fruit:true,
+        //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:true,
+        lactosefreeo:true,
+
+        condiments:false,
+        price: 1.99,
+        img: "./Items/blueberryo.jpg",
+        dairy:false,
+        cookingProducts:false,
+        beverages:false
+    },
+    {  
+        name: "Organic Bread",
+        vegetarian: false,
+        glutenFree: false,
+        organic: true,
+        vegetable:true,
+        fruit:true,
+        //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:true,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 2.99,
+        img: "./Items/breado.jpg",
+        dairy:false,
+        cookingProducts:false,
+        beverages:false
+    },
+    {  
+        name: "Organic Milk",
+        vegetarian: false,
+        glutenFree: false,
+        organic: true,
+        vegetable: false,
+        fruit:false,
+        //new
+        nutfree:true,
+        lactosefree:false,
+        nutfreeo:true,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 1.99,
+        img: "./Items/milko.jpg",
+        dairy:true,
+        cookingProducts:false,
+        beverages:false
+    },
+
+    {
+        name: "Brocoli",
+        vegetarian: true,
+        glutenFree: true,
+        organic: false,
+        fruit:true,
+        nutfree: true,
+        lactosefree: true,
+        nutfreeo: false,
+        lactosefreeo: false,
+        condiments: false,
+        price: 1.99,
+        //img from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fappetite-broccoli-brocoli-broccolli-calories-161486%2F&psig=AOvVaw0xQdjYTSvCHlNX16uyTXAN&ust=1623161786811000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDI6oLbhfECFQAAAAAdAAAAABAa
+        img: "./Items/brocoli.jpg",
+        dairy: false,
+        cookingProducts: false,
+        beverages: false
+    },
+
     {
         name: "Salt",
         vegetarian: true,
@@ -20,6 +127,11 @@ var products = [
         organic: false,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         condiments:true,
         price: 1.99,
         img: "./Items/salt.jpg",
@@ -34,6 +146,11 @@ var products = [
         organic: false,
         vegetable:false,
         fruit:true,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         condiments:false,
         price: 2.99,
         img: "Items/apple.png",
@@ -42,12 +159,17 @@ var products = [
         beverages:false
     },
     {
-        name: "Pomegrante",
+        name: "Pomegrante (Organic)",
         vegetarian: true,
         glutenFree: true,
         organic: true,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:true,
+        lactosefreeo:true,
         condiments:false,
         price: 3.99,
         img: "./Items/pomegrante.jpg",
@@ -62,8 +184,13 @@ var products = [
         organic: false,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         condiments:false,
-        price: 4.99,
+        price: 2.99,
         img: "./Items/bread.jpg",
         dairy:false,
         cookingProducts:false,
@@ -76,6 +203,11 @@ var products = [
         organic: false,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         condiments:false,
         price: 7.99,
         img: "./Items/chicken.jpg",
@@ -83,13 +215,38 @@ var products = [
         cookingProducts:false,
         beverages:false
     },
+    {  
+        name: "Salmon",
+        vegetarian: false,
+        glutenFree: true,
+        organic: false,
+        vegetable:false,
+        fruit:false,
+        //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 11.99,
+        img: "./Items/salmon.jpg",
+        dairy:false,
+        cookingProducts:false,
+        beverages:false
+    },
     {
-        name: "Orange juice",
+        name: "Orange juice (Organic)",
         vegetarian: true,
         glutenFree: true,
         organic: true,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:true,
+        lactosefreeo:true,
         condiments:false,
         price: 3.79,
         img: "./Items/orangejuice.jpeg",
@@ -98,12 +255,17 @@ var products = [
         beverages:true
     },
     {
-        name: "Eggplant",
+        name: "Eggplant (Organic)",
         vegetarian: true,
         glutenFree: true,
         organic: true,
         vegetable:true,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:true,
+        lactosefreeo:true,
         condiments:false,
         price: 3.99,
         img: "./Items/eggplant.jpg",
@@ -117,6 +279,11 @@ var products = [
         glutenFree: true,
         vegetable:true,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         organic: false,
         condiments:false,
         price: 5.99,
@@ -132,6 +299,11 @@ var products = [
         glutenFree: true,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         organic: false,
         price: 3.79,
         img: "./Items/ketchup.jpg",
@@ -146,6 +318,11 @@ var products = [
         glutenFree: true,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         organic: false,
         condiments:true,
         price: 1.99,
@@ -160,13 +337,78 @@ var products = [
         glutenFree: true,
         vegetable:false,
         fruit:false,
+         //new
+        nutfree:true,
+        lactosefree:false,
+        nutfreeo:false,
+        lactosefreeo:false,
         organic: false,
         condiments:false,
-        price: 4.99,
+        price: 1.99,
         img: "./Items/milk.jpg",
         dairy:true,
         cookingProducts:false,
         beverages:true
+    },
+    {  
+        name: "Bacon",
+        vegetarian: false,
+        glutenFree: false,
+        organic: false,
+        vegetable:false,
+        fruit:false,
+        //new
+        nutfree:true,
+        lactosefree:false,
+        nutfreeo:false,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 8.99,
+        img: "./Items/bacon.jpg",
+        dairy:false,
+        cookingProducts:false,
+        beverages:false
+    },
+    {  
+        name: "Almond Granola",
+        vegetarian: true,
+        glutenFree: true,
+        organic: false,
+        vegetable:true,
+        fruit:true,
+        //new
+        nutfree:false,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 4.99,
+        img: "./Items/almondgranola.jpg",
+        dairy:false,
+        cookingProducts:false,
+        beverages:false
+    },
+    {  
+        name: "Yogurt",
+        vegetarian: true,
+        glutenFree: true,
+        organic: false,
+        vegetable:false,
+        fruit:false,
+        //new
+        nutfree:true,
+        lactosefree:false,
+        nutfreeo:false,
+        lactosefreeo:false,
+
+        condiments:false,
+        price: 1.99,
+        img: "./Items/yogurt.jpg",
+        dairy:true,
+        cookingProducts:false,
+        beverages:false
     },
     {
         name: "Cheese Strings",
@@ -175,6 +417,11 @@ var products = [
         vegetable:false,
         fruit:false,
         organic: false,
+         //new
+        nutfree:true,
+        lactosefree:true,
+        nutfreeo:false,
+        lactosefreeo:false,
         condiments:false,
         price: 6.99,
         img: "./Items/cheesestrings.png",
@@ -182,6 +429,7 @@ var products = [
         cookingProducts:false,
         beverages:false
     },
+
 ];
 
 
@@ -207,7 +455,7 @@ searchBtn.addEventListener('click', (event) => {
 });
 
 const addToCartBtn = document.querySelector('#addCart');
-addToCartBtn.addEventListener('click', (event) => { //["Broccoli", "Milk", "Peaches"]
+addToCartBtn.addEventListener('click', (event) => { 
     listDiv = document.getElementById("cart");
     listDiv.innerHTML = "";
     let productsToCartNames = getSelectedCheckboxValues('product');
@@ -286,7 +534,7 @@ function getProducts(preferences, categories) {
 
     for(product in products){
         let toAdd = true;
-        if(categories[0] == "noAdditional"){
+        if(categories[0] == "none"){
            toAdd = true;
         }else{
             if(products[product][categories[0]] == true){
@@ -306,3 +554,5 @@ function getProducts(preferences, categories) {
     }
     return productsList;
 };
+
+
